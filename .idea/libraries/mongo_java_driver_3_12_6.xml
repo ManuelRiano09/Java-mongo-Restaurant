@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="mongo-java-driver-3.12.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/mongo-java-driver-3.12.6.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/openjfx-11.0.2_windows-x64_bin-sdk" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/openjfx-11.0.2_windows-x64_bin-sdk" />
+    </SOURCES>
+  </library>
+</component>

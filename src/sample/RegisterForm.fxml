@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane focusTraversable="true" prefHeight="497.0" prefWidth="819.0">
+         <children>
+            <ImageView fitHeight="553.0" fitWidth="413.0" layoutX="-144.0" layoutY="-53.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@pngtree-seafood-hot-pot-restaurant-food-promotion-image_165854.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="268.0" layoutY="-2.0" prefHeight="505.0" prefWidth="551.0" style="-fx-background-color: #C8CFBA;">
+               <effect>
+                  <Blend />
+               </effect>
+               <children>
+                  <Label layoutX="253.0" layoutY="36.0" prefHeight="41.0" prefWidth="167.0" text="Register">
+                     <font>
+                        <Font name="JetBrains Mono Regular" size="32.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="46.0" layoutY="120.0" text="User Name:">
+                     <font>
+                        <Font name="JetBrains Mono Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="39.0" layoutY="169.0" text="Password:">
+                     <font>
+                        <Font name="JetBrains Mono Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="txtPassword" layoutX="222.0" layoutY="168.0" prefHeight="25.0" prefWidth="205.0" style="-fx-background-radius: 8em;" />
+                  <TextField fx:id="txtUserName" layoutX="222.0" layoutY="119.0" prefHeight="25.0" prefWidth="205.0" style="-fx-background-radius: 8em;" />
+                  <Button fx:id="btnCreateAcoount" layoutX="276.0" layoutY="337.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="50.0" prefWidth="108.0" style="-fx-background-radius: 8em;" text="Create account" />
+                  <Label layoutX="46.0" layoutY="220.0" text="Email:">
+                     <font>
+                        <Font name="JetBrains Mono Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="46.0" layoutY="273.0" text="Phone:">
+                     <font>
+                        <Font name="JetBrains Mono Regular" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtEmail" layoutX="222.0" layoutY="219.0" prefHeight="25.0" prefWidth="205.0" style="-fx-background-radius: 8em;" />
+                  <TextField fx:id="txtPhone" layoutX="222.0" layoutY="272.0" prefHeight="25.0" prefWidth="205.0" style="-fx-background-radius: 8em;" />
+                  <Button fx:id="btnLoIn" layoutX="165.0" layoutY="466.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="25.0" prefWidth="65.0" style="-fx-background-radius: 8em;" text="Log-In" />
+                  <Label layoutX="21.0" layoutY="470.0" text="I already have an account" />
+               </children></Pane>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Pane>
+   </children>
+</GridPane>
